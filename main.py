@@ -53,10 +53,10 @@ def install_pkg_antix (name1, name2, url):
 # Install yad
 install_pkg_antix ('yad', chr(45) + '1_i386.deb', 'http://debs.slavino.sk/pool/main/y/yad/')
 	
-src = dir_develop + '/ui-config-info/usr_local_bin/config-software.sh'
+src = dir_develop + '/ui-config-software/usr_local_bin/config-software.sh'
 dest = '/usr/local/bin/config-software.sh'
 shutil.copyfile (src, dest)
 os.system ('chmod a+rx ' + dest)
 
-print 'FINISHED ADDING ADDING SOFTWARE WIZARD'
-print '======================================'
+print 'FINISHED ADDING SOFTWARE WIZARD'
+print '==============================='
