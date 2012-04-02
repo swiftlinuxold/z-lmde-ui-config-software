@@ -1,0 +1,8 @@
+[Desktop Entry]
+Encoding=UTF-8
+Name=Software Installation Wizard
+Exec=python /usr/local/bin/config-software.py
+Icon=/usr/share/synaptic/pixmaps/synaptic_32x32.xpm
+Terminal=false
+Type=Application
+Categories=PackageManager;System
