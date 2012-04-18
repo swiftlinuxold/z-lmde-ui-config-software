@@ -36,6 +36,11 @@ dest = '/usr/local/bin/config-software.py'
 shutil.copyfile (src, dest)
 os.system ('chmod a+rx ' + dest)
 
+src = dir_develop + '/ui-config-software/usr_local_bin/use-apps.sh'
+dest = '/usr/local/bin/use-apps.sh'
+shutil.copyfile (src, dest)
+os.system ('chmod a+rx ' + dest)
+
 src = dir_develop + '/ui-config-software/usr_share_applications/config-software.desktop'
 dest = '/usr/share/applications/config-software.desktop'
 shutil.copyfile (src, dest)
